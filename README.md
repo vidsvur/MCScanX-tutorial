@@ -90,6 +90,10 @@ in our example,
 java dot_plotter -g at.gff -s at.collinearity -c dot.ctl -o dot.png
 ```
 
+Output: 
+
+![dot_plot](dot.png)
+
 ### Circle plotter
 
 Similarly, there is a circle.ctl:
@@ -106,3 +110,7 @@ Run the visualisation:
 ```
 java circle_plotter -g gff_file -s synteny_file -c control_file -o output_PNG_file
 ```
+
+Output:
+
+![circle_plot](output1.png)
