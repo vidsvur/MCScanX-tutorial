@@ -42,7 +42,7 @@ NOTE:
 Command to prepare blast output:
 ```
 makeblastdb -in at.fa -dbtype prot -parse_seqids
-blastp -query all.fa -db all -out at_vv.blast -evalue 1e-10 -num_threads 16 -outfmt 8 -num_alignments 5
+blastp -query at.fa -db all -out at.blast -evalue 1e-10 -num_threads 16 -outfmt 8 -num_alignments 5
 ```
 NOTE:
 - In the original tutorial, https://github.com/wyp1125/MCScanX, they refer to using blastall, which has ben deprecated. Use the latest version of blast, and use blastp instead
